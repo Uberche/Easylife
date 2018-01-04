@@ -1,0 +1,2 @@
+# Easylife
+Shopify Theme Dev
