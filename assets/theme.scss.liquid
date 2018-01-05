@@ -83,6 +83,12 @@ $breakpoint-has-widths: ('small', 'medium', 'medium-down', 'large');
 $breakpoint-has-push:  ('medium', 'medium-down', 'large');
 $breakpoint-has-pull:  ('medium', 'medium-down', 'large');
 
+/* -- My own -- */
+
+$lightblue: #2490ce;
+$darkblue: #11466a;
+$familyfont: Ubuntu;
+
 /* -- Colors -- */
 
 // Theme colors
@@ -3623,7 +3629,7 @@ hr.thin-line {
 .home-page-joined {
   @include bgimg();
   position: relative;
-  background-image: url("https://cdn.shopify.com/s/files/1/2629/9344/files/img_0465.jpg?4629906747775008412");
+  background-image: url("https://cdn.shopify.com/s/files/1/2701/6272/files/splash.png?8597497742206928228");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3646,12 +3652,14 @@ hr.thin-line {
 }
 
 #frontopague {
-    // background-color: rgba(45,57,71,0.6);
+  background-color: rgba(255,255,255,0.6);
+  padding: 30px;
+  color: $darkblue;
+  flex: 2 0 0;
+}
 
-    background-color: rgba(255,255,255,0.6);
-    padding: 30px;
-    color: #000;
-    flex: 2 0 0;
+.frontheadline {
+  color: $darkblue;
 }
 
 .sizing {
