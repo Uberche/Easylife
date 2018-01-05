@@ -2,32 +2,13 @@
 <div id="home-page" class="index-section home-section {% if section.settings.home-page-bg %} mainbg {% endif %}">
 	<div class="home-page-joined">
 		{% for block in section.blocks %}
-			<div class="home-imagebox" {{ block.shopify_attributes }}>
-				{% if block.settings.image %}
-					<noscript>
-						<div class="grid__item sizing medium-down--one-whole image {% if block.settings.home-featured-align == 'right-img' %} push--large--one-half {% endif %}"
-							style="background-image: url('{{ block.settings.image | img_url: '1024x1024' }}');display: block;"></div>
-					</noscript>
-				{% endif %}
-				<div class="grid__item sizing medium-down--one-whole no-js lazyload {% if block.settings.home-featured-align == 'right-img' %} push--large--one-half {% endif %}"
-				{% if block.settings.image != blank %}
-				data-bgset="{% include 'bgset', image: block.settings.image %}"
-				data-widths="[320, 360, 375, 414, 568, 684, 720, 732, 736, 768, 1024, 1200]"
-				data-sizes="auto"
-				data-parent-fit="height"></div>
-				{% else %}>
-				<div class="placeholder-background imagebox">
-					{{ 'image' | placeholder_svg_tag: 'placeholder-image' }}
-				</div>
-				{% endif %}
-			</div>
 			<div class=" wrapper">
-				<div class="grid__item medium-down--one-whole  {% if block.settings.home-featured-align == 'left-img' %} push--large--one-half {% else %} pull--no {% endif %}">
+				<div class="grid__item medium-down--one-whole">
 					<div class="large--display-table">
 						<div id="frontopague" class="large--display-table-cell">
 
 							{% unless block.settings.home-featured-title == blank %}
-								<h3>{{ block.settings.home-featured-title | escape }}</h3>
+								<h3 class="frontheadline">{{ block.settings.home-featured-title | escape }}</h3>
 							{% endunless %}
 							{% unless block.settings.home-featured-content == blank %}
 								{{ block.settings.home-featured-content }}
@@ -40,9 +21,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
-
-  {% endfor %}
+		{% endfor %}
 	</div>
 </div>
 
