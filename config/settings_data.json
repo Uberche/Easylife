@@ -47,13 +47,13 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/logo_952e76b5-4dc5-4fb5-bd52-0c4b913b917b.png",
+          "logo": "shopify:\/\/shop_images\/elilogo1.png",
           "logo_use_inverted": false,
           "logo-inverted": "",
-          "logo_max_width": "250",
+          "logo_max_width": "110",
           "main_linklist": "main-menu",
           "menu_style": "classic",
-          "menu_text_color": "is-light",
+          "menu_text_color": "is-dark",
           "menu_product": "",
           "show_announcement": false,
           "home_page_only": true,
@@ -66,31 +66,11 @@
       "video": {
         "type": "video",
         "settings": {
-          "heading": "Video",
-          "video_url": "https:\/\/www.youtube.com\/watch?v=NUC2EQvdzmY",
-          "video_text_color": "video-text-dark",
-          "cover_image": ""
+          "heading": "Easy Life Industries",
+          "video_url": "https:\/\/www.youtube.com\/watch?v=vQnGWUUx-Mw",
+          "video_text_color": "video-text-light",
+          "cover_image": "shopify:\/\/shop_images\/cover.png"
         }
-      },
-      "feature-rows": {
-        "type": "feature-rows",
-        "blocks": {
-          "feature-rows-0": {
-            "type": "text",
-            "settings": {
-              "home-featured-align": "left-img",
-              "image": "",
-              "home-featured-title": "Talk about your brand",
-              "home-featured-content": "<p>Use this text to share information about your brand with your customers. <b>Describe a product, share announcements, or welcome customers to your store.<\/b><\/p>",
-              "home-featured-btn-label": "",
-              "home-featured-btn-url": ""
-            }
-          }
-        },
-        "block_order": [
-          "feature-rows-0"
-        ],
-        "settings": {}
       },
       "feature-columns": {
         "type": "feature-columns",
@@ -98,27 +78,27 @@
           "feature-columns-0": {
             "type": "text",
             "settings": {
-              "home-features-icon": "bell-o",
-              "home-features-title": "Describe a feature",
-              "home-features-content": "<p>This section doesn’t currently include any content. <b>Add content to this section using the sidebar.<\/b><\/p>",
+              "home-features-icon": "quote-right",
+              "home-features-title": "Sarah Connor",
+              "home-features-content": "<p>Our Ethan has changed our life. He built us a website to advertise our struggle, runs our social media accounts, and even helps out with defense around the shelter!<\/p>",
               "width": "33%"
             }
           },
           "feature-columns-1": {
             "type": "text",
             "settings": {
-              "home-features-icon": "bell-o",
-              "home-features-title": "Describe a feature",
-              "home-features-content": "<p>This section doesn’t currently include any content. <b>Add content to this section using the sidebar.<\/b><\/p>",
+              "home-features-icon": "quote-right",
+              "home-features-title": "Martha Stewart",
+              "home-features-content": "<p>I don't even need to cook anymore, I just tell our Ethan what we want and then open our next bottle of red!<\/p>",
               "width": "33%"
             }
           },
           "feature-columns-2": {
             "type": "text",
             "settings": {
-              "home-features-icon": "bell-o",
-              "home-features-title": "Describe a feature",
-              "home-features-content": "<p>This section doesn’t currently include any content. <b>Add content to this section using the sidebar.<\/b><\/p>",
+              "home-features-icon": "quote-right",
+              "home-features-title": "Mark Zuckerberg",
+              "home-features-content": "<p>Ever since I got my Ethan, I can spend more time with the family and less time worrying about code. He's a life saver!<\/p>",
               "width": "33%"
             }
           }
@@ -129,73 +109,7 @@
           "feature-columns-2"
         ],
         "settings": {
-          "title": "Text columns with icons"
-        }
-      },
-      "slideshow": {
-        "type": "slideshow",
-        "blocks": {
-          "slideshow-0": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "link": ""
-            }
-          },
-          "slideshow-1": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "link": ""
-            }
-          },
-          "slideshow-2": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "slideshow-0",
-          "slideshow-1",
-          "slideshow-2"
-        ],
-        "settings": {}
-      },
-      "faq": {
-        "type": "faq",
-        "blocks": {
-          "faq-0": {
-            "type": "text",
-            "settings": {
-              "home-faq-title": "Question and answer",
-              "home-faq-content": "<p>This section doesn’t currently include any content. <b>Add content to this section using the sidebar.<\/b><\/p>"
-            }
-          },
-          "faq-1": {
-            "type": "text",
-            "settings": {
-              "home-faq-title": "Question and answer",
-              "home-faq-content": "<p>This section doesn’t currently include any content. <b>Add content to this section using the sidebar.<\/b><\/p>"
-            }
-          },
-          "faq-2": {
-            "type": "text",
-            "settings": {
-              "home-faq-title": "Question and answer",
-              "home-faq-content": "<p>This section doesn’t currently include any content. <b>Add content to this section using the sidebar.<\/b><\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "faq-0",
-          "faq-1",
-          "faq-2"
-        ],
-        "settings": {
-          "title": "FAQ"
+          "title": "Testimonials"
         }
       },
       "home-product": {
@@ -204,22 +118,14 @@
           "featured_product": ""
         }
       },
-      "featured-blog": {
-        "type": "featured-blog",
-        "settings": {
-          "title": "Blog",
-          "blog": "news",
-          "post_limit": 3
-        }
-      },
       "featured-content": {
         "type": "featured-content",
         "blocks": {
           "featured-content-0": {
             "type": "text",
             "settings": {
-              "block_title": "Talk about your brand",
-              "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+              "block_title": "The Easy Life Way",
+              "content": "<p>Easy Life Industries is devoted&nbsp; to building the helpers of tomorrow, today. Our engineers, like Doug, the oldest turtle in Canada, are working hard to ensure your Ethan stays one step ahead of your needs.<\/p>"
             }
           }
         },
@@ -227,8 +133,8 @@
           "featured-content-0"
         ],
         "settings": {
-          "home-page-bg": "shopify:\/\/shop_images\/office.jpg",
-          "home-page-background-overlay": false
+          "home-page-bg": "shopify:\/\/shop_images\/cyborg.png",
+          "home-page-background-overlay": true
         }
       },
       "footer": {
@@ -238,19 +144,63 @@
           "footer_logo_max_width": "50",
           "footer_newsletter_enable": false,
           "footer_linklist": "footer",
-          "footer_payment_enable": false
+          "footer_payment_enable": true
+        }
+      },
+      "1515096955568": {
+        "type": "joinedin",
+        "blocks": {
+          "1515096955568-0": {
+            "type": "text",
+            "settings": {
+              "home-featured-title": "Version 3.0 released!",
+              "home-featured-btn-label": "More Info!",
+              "home-featured-btn-url": "shopify:\/\/blogs\/news"
+            }
+          }
+        },
+        "block_order": [
+          "1515096955568-0"
+        ],
+        "settings": {}
+      },
+      "1515259743909": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "Stay up to date",
+          "subheading": "Promotions, new products and sales. Directly to your inbox."
+        }
+      },
+      "1515264995906": {
+        "type": "feature-collection",
+        "settings": {
+          "heading": "Easy Life Swag",
+          "collection": "swag",
+          "grid": 3,
+          "rows": 2,
+          "show_view_all": true
+        }
+      },
+      "search-template": {
+        "type": "search-template",
+        "settings": {}
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "grid": "4",
+          "rows": "6"
         }
       }
     },
     "content_for_index": [
+      "1515096955568",
       "featured-content",
       "video",
-      "feature-rows",
-      "feature-columns",
-      "faq",
-      "slideshow",
       "home-product",
-      "featured-blog"
+      "1515264995906",
+      "feature-columns",
+      "1515259743909"
     ]
   },
   "presets": {

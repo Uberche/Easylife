@@ -1,9 +1,9 @@
 <div id="CartSection" class="page-width" data-section-id="{{ section.id }}" data-section-type="cart-template">
 {% capture header_title %} {{ 'cart.general.title' | t }} {% endcapture %}
 {% include 'page_header' with header_title %}
+<div class="couponwarn">Please note, only one coupon code can be used per transaction!</div>
 
 <div class="wrapper wrapper--margins wrapper--mini">
-CART-TEMPLATE
   {% if cart.item_count > 0 %}
 
     <form id="cart-form" action="/cart" method="post" novalidate class="cart table-wrap">

@@ -10,6 +10,8 @@
 
   <div class="wrapper wrapper--margins">
 
+     <a href="{% if section.settings.video_url.url == blank %}https://www.youtube.com/watch?v=_9VUPq3SxOc{% else %}{{ section.settings.video_url.url }}{% endif %}" class="video-overlay video-overlay-{{ section.id }}"><span class="video-button">{% include 'asset_svg' with 'play_arrow' %}</span></a>
+     
     <div class="content push-up">
       <div class="display-table">
         <h2 class="display-table-cell huge-title {% if section.settings.video_text_color %}{{ section.settings.video_text_color }}{% endif %}">
@@ -18,7 +20,6 @@
       </div>
     </div>
 
-     <a href="{% if section.settings.video_url.url == blank %}https://www.youtube.com/watch?v=_9VUPq3SxOc{% else %}{{ section.settings.video_url.url }}{% endif %}" class="video-overlay video-overlay-{{ section.id }}"><span class="video-button">{% include 'asset_svg' with 'play_arrow' %}</span></a>
    </div>
     {% if section.settings.cover_image != blank %}
     <span class="prlx-bg prlx-bg--{{ section.id }} no-js lazyload"

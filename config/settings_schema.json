@@ -124,13 +124,18 @@
             "group": "Sans-serif"
           },
           {
-            "value": "Tahoma,Geneva,sans-serif\/*regular*\/",
+            "value": "Ubuntu,sans-serif",
+            "label": "Ubuntu",
+            "group": "Sans-serif"
+          },
+          {
+            "value": "Tahoma,Geneva,sans-serif",
             "label": "Tahoma, Geneva",
             "group": "Sans-serif"
           },
           {
-            "value": "Dosis,sans-serif",
-            "label": "Dosis",
+            "value": "Poppins,sans-serif",
+            "label": "Poppins",
             "group": "Sans-serif | Google Web Fonts"
           },
           {

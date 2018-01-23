@@ -3,18 +3,17 @@
 	<div class="home-page-joined">
 		{% for block in section.blocks %}
 			<div class=" wrapper">
-				<div class="grid__item medium-down--one-whole">
-					<div class="large--display-table">
+				<div class="medium-down--one-whole">
+					<div id="frTable" class="large--display-table">
 						<div id="frontopague" class="large--display-table-cell">
-
 							{% unless block.settings.home-featured-title == blank %}
-								<h3 class="frontheadline">{{ block.settings.home-featured-title | escape }}</h3>
+								<h3>{{ block.settings.home-featured-title | escape }}</h3>
 							{% endunless %}
 							{% unless block.settings.home-featured-content == blank %}
 								{{ block.settings.home-featured-content }}
-							{% endunless %}
+						  	{% endunless %}
 							{% unless block.settings.home-featured-btn-label == blank %}
-								<a class="btn btn--regular btn--outline btn--light" href="{{ block.settings.home-featured-btn-url }}">{{ block.settings.home-featured-btn-label | escape }}</a>
+								<a id="frBtn" class="btn btn--small btn--light" href="{{ block.settings.home-featured-btn-url }}">{{ block.settings.home-featured-btn-label | escape }}</a>
 							{% endunless %}
 
 						</div>
@@ -27,41 +26,13 @@
 
 {% schema %}
 	{
-		"name": "Image with text overlay2",
-		"settings": [
-			{
-				"type": "image_picker",
-				"id": "home-page-bg",
-				"label": "Background image"
-			}
-		],
+		"name": "Splash with Text",
 		"blocks": [
 			{
 				"type": "text",
-				"name": "Image with text2",
+				"name": "Text",
 				"settings": [
-					{
-						"type": "select",
-						"id": "home-featured-align",
-						"label": "Image alignment",
-						"default": "left-img",
-						"options": [
-							{
-								"value": "left-img",
-								"label": "Left"
-							},
-							{
-								"value": "right-img",
-								"label": "Right"
-							}
-						]
-					},
-					{
-						"type": "image_picker",
-						"id": "image",
-						"label": "Image"
-					},
-					{
+										{
 						"type": "text",
 						"id": "home-featured-title",
 						"label": "Heading",
@@ -85,15 +56,17 @@
 					}
 				]
 			}
-	 ],
-		"presets": [{
-			"name": "Image with text overlay",
-			"category": "Image",
-			"blocks": [
-				{
-					"type": "text"
-				}
-			]
-		}]
+		],
+		"presets": [
+			{
+				"name": "Image and text",
+				"category": "Text",
+				"blocks": [
+					{
+						"type": "text"
+					}
+				]
+			}
+		]
 	}
 {% endschema %}

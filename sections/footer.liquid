@@ -68,7 +68,7 @@
               </noscript>
             </a>
           {% else %}
-            <a href="/" itemprop="url" class="site-header__logo-text">{{ shop.name }}</a>
+            <a href="/" itemprop="url" class="site-header__logo-text"><div class="footercolor">{{ shop.name }}</div></a>
           {% endif %}
         </div>
 
@@ -84,8 +84,8 @@
         {% endif %}
 
         <div class="copy">
-          <p class="text">{{ 'layout.footer.copyright' | t }} &copy; {{ 'now' | date: "%Y" }} <a href="/">{{ shop.name }}</a></p>
-          <p class="powered">{{ powered_by_link }}</p>
+          <p class="text">{{ 'layout.footer.copyright' | t }} &copy; {{ 'now' | date: "%Y" }} <a href="/"><span class="footercolor">{{ shop.name }}</span></a></p>
+          <p class="powered"><span class="footercolor">{{ powered_by_link }}</span></p>
         </div>
 
         {% assign payment_icons_available = 'amazon_payments,american_express,bitcoin,cirrus,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,jcb,litecoin,maestro,master,paypal,visa,apple_pay' | split: ',' %}
@@ -101,8 +101,8 @@
 
       </div>
 
+      <div id="cooperdeal"><a href="https://easy-life-industries.myshopify.com/pages/coopers-secret-sale"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/smcoop.jpg?13202084337211230590"></a></div>
     </footer>
-
 {% schema %}
   {
   	"name": "Footer",

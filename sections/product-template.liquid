@@ -4,7 +4,7 @@
 {% include 'page_header' with header_title %}
 
 <div class="wrapper wrapper--margins">
-PRODUCTTEMPLATE
+
   <div class="product grid">
 
     {% assign current_variant = product.selected_or_first_available_variant %}
@@ -141,12 +141,138 @@ PRODUCTTEMPLATE
 
       <div class="product-description rte" itemprop="description">
         {{ product.description }}
+
       </div>
 
     </div>
 
   </div>
+    {% for tag in product.tags %}
+      {% if tag contains 'ethan' %}
+        <div id="comprow">
+          <div style="order: 1" class="compcell comptitle"></div>
+          <div style="order: 2" class="compcell compskills">
+            <div class="skilltitle">Customer Service</div><br/>
+            <div class="skillimage"><img alt="HTML icon" src="https://cdn.shopify.com/s/files/1/2701/6272/files/cssm.png?11196599669998239800"></div>
+          </div>
+          <div style="order: 3" class="compcell compskills">
+            <div class="skilltitle">HTML</div><br/>
+            <div class="skillimage"><img alt="HTML icon" src="https://cdn.shopify.com/s/files/1/2701/6272/files/htmlsm.png?6758639897624155051"></div>
+          </div>
+          <div style="order: 4" class="compcell compskills">
+            <div class="skilltitle">CSS</div><br/>
+            <div class="skillimage"><img alt="HTML icon" src="https://cdn.shopify.com/s/files/1/2701/6272/files/csssm.png?6758639897624155051"></div>
+          </div>
+          <div style="order: 5" class="compcell compskills">
+            <div class="skilltitle">Wordpress</div><br/>
+            <div class="skillimage"><img alt="HTML icon" src="https://cdn.shopify.com/s/files/1/2701/6272/files/wpsm.png?6758639897624155051"></div>
+          </div>
+          <div style="order: 6" class="compcell compskills">
+            <div class="skilltitle">Bootstrap</div><br/>
+            <div class="skillimage"><img alt="HTML icon" src="https://cdn.shopify.com/s/files/1/2701/6272/files/bootsm.png?6758639897624155051"></div>
+          </div>
+          <div style="order: 7" class="compcell compskills">
+            <div class="skilltitle">Full Automation</div><br/>
+            <div class="skillimage"><img alt="HTML icon" src="https://cdn.shopify.com/s/files/1/2701/6272/files/aism.jpg?6758639897624155051"></div>
+          </div>
+          <div style="order: 8" class="compcell compskills">
+            <div class="skilltitle">Liquid</div><br/>
+            <div class="skillimage"><img alt="HTML icon" src="https://cdn.shopify.com/s/files/1/2701/6272/files/lqsm.png?8149295499280349230"></div>
+          </div>
+          <div style="order: 9" class="compcell compskills">
+            <div class="skilltitle">Javascript</div><br/>
+            <div class="skillimage"><img alt="HTML icon" src="https://cdn.shopify.com/s/files/1/2701/6272/files/jssm.png?6758639897624155051"></div>
+          </div>
+          <div style="order: 10" class="compcell compskills">
+            <div class="skilltitle">JQuery</div><br/>
+            <div class="skillimage"><img alt="HTML icon" src="https://cdn.shopify.com/s/files/1/2701/6272/files/jqsm.png?6758639897624155051"></div>
+          </div>
+          <div style="order: 11" class="compcell compskills">
+            <div class="skilltitle">SCSS</div><br/>
+            <div class="skillimage"><img alt="HTML icon" src="https://cdn.shopify.com/s/files/1/2701/6272/files/sasssm.png?6758639897624155051"></div>
+          </div>
+          <div style="order: 12" class="compcell  vr"></div>
 
+          <div style="order: 1" class="compcell comptitle">Version 1.0</div>
+          <div style="order: 2" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 3" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 4" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 5" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 6" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 7" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 8" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 9" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 10" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 11" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 12" class="compcell  vr"></div>
+
+          <div style="order: 1" class="compcell comptitle">Version 2.0</div>
+          <div style="order: 2" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 3" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 4" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 5" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 6" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512s"></div></div>
+          <div style="order: 7" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 8" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 9" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 10" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 11" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/checkx.png?4450818265581864475"></div></div>
+          <div style="order: 12" class="compcell  vr"></div>
+
+          <div style="order: 1" class="compcell comptitle">Version 3.0</div>
+          <div style="order: 2" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 3" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div> 
+          <div style="order: 4" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 5" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 6" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 7" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 8" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 9" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 10" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 11" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 12" class="compcell  vr"></div>
+
+          <div style="order: 1" class="compcell comptitle">Version 4.0</div>
+          <div style="order: 2" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 3" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div> 
+          <div style="order: 4" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 5" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 6" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 7" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 8" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 9" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 10" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 11" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 12" class="compcell  vr">
+            <div class="vrtitle">"Front End"</div>
+            <div class="vrinfo">Will include Node.js, React, Ruby on Rails and more!</div>
+            <div class="smallprint">*scheduled for Q3 2018</div>
+            <div class="smallprint">**subject to change</div>
+          </div>
+
+          <div style="order: 1" class="compcell comptitle">Version 5.0</div>
+          <div style="order: 2" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 3" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div> 
+          <div style="order: 4" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 5" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 6" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 7" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 8" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 9" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 10" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 11" class="compcell"><div class="compcheck"><img src="https://cdn.shopify.com/s/files/1/2701/6272/files/check.png?6476391347561289512"></div></div>
+          <div style="order: 12" class="compcell  vr">
+            <div class="vrtitle">"Full Stack"</div>
+            <div class="vrinfo">Will include MySQL, MondoDB, PHP and more!</div>
+            <div class="smallprint">*scheduled for Q1 2019</div>
+            <div class="smallprint">**subject to change</div>
+          </div>
+
+          
+        </div>
+
+      {% endif %}
+    {% endfor %}
  </div>
 </div>
 

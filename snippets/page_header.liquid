@@ -3,8 +3,8 @@
 <div class="header__custom display-table parallax-bg">
 	<div class="display-table-cell prlx-txt">
 		<div class="wrapper wrapper--margins">
-pageheader
-			<h1 itemprop="name">{{ header_title }}</h1>
+
+			<div class="titleheader"><h1 itemprop="name">{{ header_title }}</h1></div>
 
 			{% if template.name == 'article' %}
 				{% include 'blog_meta' with blog.comments_enabled? %}
